@@ -16,11 +16,13 @@ console.log("Person Profile:", personProfile);
 // Math operations
 let a = 3;
 let x = (100 + 50) * a;
+console.log("Math Operation 1:", x); // Logs 150 * 3 = 450
 
 //Block Variables
 {
   let a = 3;
   let x = (150 + 50) * a;
+  console.log("Math Operation 2:", x); // Logs 200 * 3 = 600
 }
 
 // Display result in HTML
